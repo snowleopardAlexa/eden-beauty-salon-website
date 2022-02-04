@@ -1,11 +1,9 @@
-
+import { Nav } from './Navbar.elements';
 
 const Navbar = () => {
   return (
     <>
-      <Nav>
-
-      </Nav>
+     <Nav>Test</Nav>
     </>
   );
 };
