@@ -1,9 +1,14 @@
-import { Nav } from './Navbar.elements';
+import { Nav, NavContainer } from './Navbar.elements';
+
 
 const Navbar = () => {
   return (
     <>
-     <Nav>Test</Nav>
+     <Nav>
+         <NavContainer>
+             hello 
+         </NavContainer>    
+     </Nav>
     </>
   );
 };
