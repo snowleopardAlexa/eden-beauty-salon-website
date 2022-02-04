@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { BsFlower3 } from 'react-icons/bs';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav `
@@ -19,5 +20,19 @@ export const NavContainer = styled(Container) `
   height: 80px;
 
   ${Container}
+`;
+
+export const NavLogo = styled(Link) `
+  color: white;
+  justify-self: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+`;
+
+export const NavIcon = styled(BsFlower3) `
+  margin-right: 0.5rem;
 `;
 
