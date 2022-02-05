@@ -27,11 +27,10 @@ padding-left: 50px;
 
 export const Button = styled.div `
 border-radius: 4px;
-background: #BB377D;
-background-color: ${({primary}) => (primary ? '#BB377D' : '#833ab4')}
+background-color: ${({ btnBg }) => (btnBg ? '#BB377D' : '#833ab4')};
 white-space: nowrap;
 padding: ${({big}) => (big ? '12px 64px' : '12px 20px')};
-color: #fff;
+color: ${({ color }) => (color ? '#fff' : '#000')};
 font-size: ${({fontBig}) => (fontBig ? '30px' : '20px')};
 font-family: 'Cookie', cursive;
 outline: none;
@@ -43,7 +42,7 @@ text-align: center;
 &:hover {
     tranistion: all 0.3s ease-out;
     background: #fff;
-    background-color: ${({primary}) => (primary ? '#833ab4' : '#BB377D')}
+    background: ${({btnBg}) => (btnBg ? '#833ab4' : '#BB377D')}
 }
 
 @media screen and (max-width: 960px) {

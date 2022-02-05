@@ -13,19 +13,20 @@ import { Container, Button } from "../../globalStyles";
 import { Link } from "react-router-dom";
 
 const InfoSection = ({
-  primary,
+  btnBg,
   lightBg,
   topLine,
   lightTopLine,
   lightText,
   lightTextDesc,
+  color,
   headline,
   description,
   buttonLabel,
   img,
   alt,
+  start,
   imgStart,
-  start
 }) => {
   return (
     <>
@@ -38,7 +39,12 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                   <Link to="/sign-up" style={{textDecoration: 'none'}}>
-                    <Button big fontBig primary={primary}>
+                    <Button 
+                      big 
+                      fontBig
+                       btnBg={btnBg}
+                       color={color}
+                    >
                       {buttonLabel}
                     </Button>
                   </Link>

@@ -14,7 +14,7 @@ import {
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from '../../globalStyles';
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
