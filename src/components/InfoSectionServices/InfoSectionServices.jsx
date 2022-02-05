@@ -30,6 +30,7 @@ const InfoSection = () => {
           </TableBody>
         </Table>
       </TableContainer>
+      <Button>Come back</Button>
     </>
   );
 };
