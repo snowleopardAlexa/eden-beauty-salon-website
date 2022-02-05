@@ -69,7 +69,9 @@ export const NavMenu = styled.ul `
     left: ${({click}) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #AA076B;  
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B); 
+    background: linear-gradient(to right, #61045F, #AA076B);
   }
 `;
 
@@ -93,6 +95,8 @@ export const NavItem = styled.li `
 export const NavLinks = styled(Link) `
   color: #fff;
   display: flex;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -109,4 +113,26 @@ export const NavLinks = styled(Link) `
       transition: all 0.3s ease;
     }
   }
+`;
+
+export const NavItemBtn = styled.li `
+  @media screen and (max-width: 960px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+`;
+
+export const NavBtnLink = styled(Link) `
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8p 16px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
 `;
