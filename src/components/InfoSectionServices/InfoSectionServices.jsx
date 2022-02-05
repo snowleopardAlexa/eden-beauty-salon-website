@@ -1,9 +1,13 @@
 import {
   TableContainer,
   Table,
+  TableTitle,
+  TableSubtitle,
+  Divider,
   TableHead,
   TableRow,
   TableBody,
+  TableDataCell,
 } from "./InfoSectionServices.elements";
 import { Button } from "../../globalStyles";
 
@@ -12,22 +16,55 @@ const InfoSection = () => {
     <>
       <TableContainer>
         <Table>
-          <TableHead>
+        <TableBody>
+          <TableTitle>
+            Services
+          </TableTitle>
+          <TableSubtitle>Haircuts</TableSubtitle>
             <TableRow>
-              <TableHead>Heading 1</TableHead>
-              <TableHead>Heading 2</TableHead>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            <TableRow>
-              <TableHead>data 1</TableHead>
-              <TableHead>data 2</TableHead>
+              <TableHead>Name</TableHead>
+              <TableHead>Time</TableHead>
+              <TableHead>Price</TableHead>
+              <TableHead>Artist</TableHead>
+              <TableHead>Contact</TableHead>
             </TableRow>
             <TableRow>
-              <TableHead>data 3</TableHead>
-              <TableHead>data 4</TableHead>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
             </TableRow>
-          </TableBody>
+            <TableRow>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+            </TableRow>
+            <TableRow>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+            </TableRow>
+            <TableSubtitle>Makeups</TableSubtitle>
+            <TableRow>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+            </TableRow>
+            <TableRow>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+              <TableDataCell>Data</TableDataCell>
+            </TableRow>
+            </TableBody>
         </Table>
       </TableContainer>
       <Button>Come back</Button>
