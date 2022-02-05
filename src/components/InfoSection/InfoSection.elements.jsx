@@ -41,16 +41,18 @@ export const TextWrapper = styled.div `
 `;
 
 export const TopLine = styled.div `
-  color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
-  font-size: 18px;
+  color: ${({lightTopLine}) => (lightTopLine ? '#65C7F7' : '#4B59F7')};
+  font-size: 2rem;
   line-height: 16px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
+  font-family: 'Dancing Script', cursive;
 `;
 
 export const Heading = styled.h1 `
   margin-bottom: 24px;
   font-size: 48px;
+  font-family: 'Playfair Display', serif;
   line-height: 1.1;
   color: ${({lightText})=> (lightText ? '#f7f8fa' : '#1c2237')};
 `;
@@ -59,9 +61,11 @@ export const Subtitle = styled.div `
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
+  font-family: 'Playfair Display', serif;
   line-height: 24px;
-  color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({lightTextDesc}) => (lightTextDesc ? '#6dd5ed' : '#1c2237')};
 `;
+
 
 
 

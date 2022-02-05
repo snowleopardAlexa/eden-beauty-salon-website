@@ -32,11 +32,13 @@ background-color: ${({primary}) => (primary ? '#BB377D' : '#833ab4')}
 white-space: nowrap;
 padding: ${({big}) => (big ? '12px 64px' : '12px 20px')};
 color: #fff;
-font-size: ${({fontBig}) => (fontBig ? '25px' : '20px')};
-font-family: 'Dancing Script', cursive;
+font-size: ${({fontBig}) => (fontBig ? '30px' : '20px')};
+font-family: 'Cookie', cursive;
 outline: none;
 border: none;
 cursor: pointer;
+letter-spacing: 3px;
+text-align: center;
 
 &:hover {
     tranistion: all 0.3s ease-out;

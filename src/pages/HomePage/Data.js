@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTopLine: true,
     topLine: 'Eden Beauty Salon',
     lightText: true,
-    lightTextDesc: 'We change your world. You can trust us. Feel confident again after taking care of yourself at Eden Beauty Salon. We will help you to always look vital and young.',
+    lightTextDesc: 'Feel confident again after a treatment at Eden Beauty Salon. We will help you to look vital and young. It is time to relax and take care of yourself. We will help you. We will change your world.',
     headline: 'Lead Beauty Salon in New York City',
-    buttonLabel: 'Discover our potential'
+    buttonLabel: 'Discover more'
 }
