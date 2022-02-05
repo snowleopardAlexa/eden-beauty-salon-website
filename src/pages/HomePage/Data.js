@@ -1,3 +1,3 @@
-export const homeOnjOne = {
+export const homeObjOne = {
     lightBg: false
 }

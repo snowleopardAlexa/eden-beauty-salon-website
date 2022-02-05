@@ -3,8 +3,12 @@ import {
   InfoRow,
   InfoColumn,
   TextWrapper,
+  TopLine,
+  Heading, 
+  Subtitle,
 } from "./InfoSection.elements";
-import { Container } from "../../globalStyles";
+import { Container, Button } from "../../globalStyles";
+import { Link } from 'react-router-dom';
 
 const InfoSection = ({ lightBg, imgStart }) => {
   return (
@@ -13,7 +17,16 @@ const InfoSection = ({ lightBg, imgStart }) => {
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
-              <TextWrapper>hello</TextWrapper>
+              <TextWrapper>
+                  <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                  <Heading lightText={lightText}>{headline}</Heading>
+                  <Subtitle lightTextDesc>{lightTextDesc}</Subtitle>
+                  <Subtitle>
+                      <Link to='/sign-up'>
+                        <Button big fontBig primary={primary}>{buttonLabel}</Button>
+                      </Link>
+                  </Subtitle>
+              </TextWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
