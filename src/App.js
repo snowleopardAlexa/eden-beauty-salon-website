@@ -3,7 +3,7 @@ import Home from "./pages/HomePage/Home";
 import About from "./pages/AboutPage/About";
 import Services from "./pages/ServicesPage/Services";
 import Products from "./pages/ProductsPage/Products";
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 import GlobalStyles from './globalStyles';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
         </Routes>
+        <Footer />
      </div>
      </>
   );
