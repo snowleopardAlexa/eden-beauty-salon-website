@@ -54,7 +54,7 @@ export const homeObjFour = {
     description: 'Hello',
     buttonLabel: 'Discover more',
     imgStart: 'start',
-    img: require('../../img/makeup1.png'),
+    img: require('../../img/makeup3.png'),
     alt: 'woman',
 }
 
