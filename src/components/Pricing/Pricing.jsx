@@ -23,7 +23,7 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Makeups</PricingHeading>
+          <PricingHeading>Special Makeups</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
