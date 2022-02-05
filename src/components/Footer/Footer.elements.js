@@ -155,6 +155,10 @@ export const SocialIcon = styled(GiButterflyFlower)`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 0px;
+
+  @media screen and (max-width: 420px) {
+    margin-bottom: 15px;
+  }
 `;
 
 export const SocialIcons = styled.div`
