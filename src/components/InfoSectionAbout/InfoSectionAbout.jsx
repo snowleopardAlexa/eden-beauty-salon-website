@@ -5,27 +5,37 @@ import {
   TitleIntro,
   SubtitleIntro,
   DescIntroText,
+  SocialIconLink,
+  SocialIconText,
   IntroRight,
   IntroImgWrapper,
   Img,
 } from "./InfoSectionAbout.elements";
-import { Container, Button } from "../../globalStyles";
+import { Button } from "../../globalStyles";
+import { FaInstagram } from 'react-icons/fa';
 //import { Link } from "react-router-dom";
 
-const InfoSectionAbout = () => {
+const InfoSectionAbout = ({ img, alt }) => {
   return (
     <Intro>
       <IntroLeft>
         <IntroLeftWrapper>
-          <TitleIntro></TitleIntro>
-          <SubtitleIntro></SubtitleIntro>
-          <DescIntroText></DescIntroText>
-          <Button>Send Message</Button>
+          <TitleIntro>Lara Jameson</TitleIntro>
+          <SubtitleIntro>Founder at Eden Beauty Salon</SubtitleIntro>
+          <DescIntroText>Worldwide Hairdresser</DescIntroText>
+          <Button>
+          <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconText>
+              Follow Lara on 
+            </SocialIconText>
+            <FaInstagram />
+          </SocialIconLink>
+          </Button>
         </IntroLeftWrapper>
       </IntroLeft>
       <IntroRight>
         <IntroImgWrapper>
-          <Img></Img>
+         <Img src={img} alt={alt} />
         </IntroImgWrapper>
       </IntroRight>
     </Intro>
