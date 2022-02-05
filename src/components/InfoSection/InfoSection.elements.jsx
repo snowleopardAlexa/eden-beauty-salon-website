@@ -63,7 +63,7 @@ export const Subtitle = styled.div `
   font-size: 18px;
   font-family: 'Playfair Display', serif;
   line-height: 24px;
-  color: ${({lightTextDesc}) => (lightTextDesc ? '#6dd5ed' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#6dd5ed' : '#1c2237')};
 `;
 
 export const ImgWrapper = styled.div `

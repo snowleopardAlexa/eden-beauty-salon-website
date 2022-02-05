@@ -20,14 +20,14 @@ export const Nav = styled.nav `
 export const NavbarContainer = styled(Container) `
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 80px;
-
-  ${Container}
+  ${Container};
 `;
 
 export const NavLogo = styled(Link) `
   color: white;
-  justify-self: start;
+  justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
@@ -66,7 +66,7 @@ export const NavMenu = styled.ul `
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({click}) => (click ? 0 : '-100%')};
+    left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
     background: #AA076B;  
@@ -95,6 +95,7 @@ export const NavItem = styled.li `
 export const NavLinks = styled(Link) `
   color: #fff;
   display: flex;
+  justify-content: space-between;
   font-size: 1.2rem;
   font-family: 'Playfair Display', serif;
   align-items: center;

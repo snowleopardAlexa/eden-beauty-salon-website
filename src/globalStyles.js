@@ -52,6 +52,4 @@ text-align: center;
 `;
 
 
-
-
 export default GlobalStyles;
