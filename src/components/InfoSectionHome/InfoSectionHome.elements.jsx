@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div `
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#61045F')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : 'linear-gradient(to right, #61045f, #aa076b)')};
 `;
 
 export const InfoRow = styled.div `

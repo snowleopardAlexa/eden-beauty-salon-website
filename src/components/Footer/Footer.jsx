@@ -45,7 +45,7 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>Our Star</FooterLink>
+            <FooterLink to='/about'>Our Star</FooterLink>
             <FooterLink to='/'>Testimonials</FooterLink>
             <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Artists</FooterLink>
