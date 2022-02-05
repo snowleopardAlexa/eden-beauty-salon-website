@@ -1,13 +1,13 @@
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
-import { InfoSection, Pricing } from "../../components";
+import { InfoSectionHome, Pricing } from "../../components";
 
 const Home = () => {
   return (
     <>
-     <InfoSection {...homeObjOne} />
-     <InfoSection {...homeObjTwo} />
-     <InfoSection {...homeObjThree} />
-     <InfoSection {...homeObjFour} />
+     <InfoSectionHome {...homeObjOne} />
+     <InfoSectionHome {...homeObjTwo} />
+     <InfoSectionHome {...homeObjThree} />
+     <InfoSectionHome {...homeObjFour} />
      <Pricing />
     </>
   );

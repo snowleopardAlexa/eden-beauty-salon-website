@@ -1,10 +1,10 @@
 import { homeObjOne } from "./Data";
-import { InfoSection, Pricing } from "../../components";
+import { InfoSectionServices, Pricing } from "../../components";
 
 const Home = () => {
   return (
     <>
-     <InfoSection {...homeObjOne} />
+     <InfoSectionServices {...homeObjOne} />
      <Pricing />
     </>
   );
