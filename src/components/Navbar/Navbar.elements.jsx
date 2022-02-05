@@ -26,8 +26,8 @@ export const NavbarContainer = styled(Container) `
 `;
 
 export const NavLogo = styled(Link) `
-  color: white;
-  justify-self: start;
+  color: #fff;
+  justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
@@ -51,7 +51,7 @@ export const MobileIcon = styled.div `
   font-size: 1.8rem;
   cursor: pointer;
 }
-`
+`;
 
 export const NavMenu = styled.ul `
   display: flex;
@@ -66,7 +66,7 @@ export const NavMenu = styled.ul `
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({click}) => (click ? 0 : '-100%')};
+    left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
     background: #AA076B;  
@@ -80,7 +80,7 @@ export const NavItem = styled.li `
     border-bottom: 2px solid transparent;
 
     &:hover {
-      border-bottom: 2px solid #4b59f7;
+      border-bottom: 3px solid #FFE000;
     }
 
     @media screen and (max-width: 960px) {
@@ -90,11 +90,22 @@ export const NavItem = styled.li `
         border: none;
       }
     }
-`
+`;
+
+export const NavItemBtn = styled.li `
+  @media screen and (max-width: 960px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+`;
 
 export const NavLinks = styled(Link) `
   color: #fff;
   display: flex;
+  justify-content: space-between;
   font-size: 1.2rem;
   font-family: 'Playfair Display', serif;
   align-items: center;
@@ -109,19 +120,9 @@ export const NavLinks = styled(Link) `
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #FFE000;
       transition: all 0.3s ease;
     }
-  }
-`;
-
-export const NavItemBtn = styled.li `
-  @media screen and (max-width: 960px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120px;
   }
 `;
 
