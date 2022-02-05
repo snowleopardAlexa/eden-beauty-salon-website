@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { BsFlower3 } from 'react-icons/bs';
 import { Container } from '../../globalStyles';
+import { Link} from 'react-router-dom';
 
 export const Nav = styled.nav `
   background: #de6fa1;

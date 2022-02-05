@@ -1,4 +1,4 @@
-import { Nav, NavContainer } from './Navbar.elements';
+import { Nav, NavContainer, NavLogo, NavIcon } from './Navbar.elements';
 
 
 const Navbar = () => {
