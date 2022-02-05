@@ -14,14 +14,14 @@ import {
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from '../../globalStyles';
-import { Routes, Route, Link } from "react-router-dom";
-import Home from "../../pages/HomePage/Home";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu  = () => setClick(false);
 
   const showButton = () => {
     if(window.innerWidth <= 960) {
@@ -42,31 +42,36 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo as={Link} to="/">
-              <NavIcon />
+            <NavLogo as={Link} to='/' onClick={closeMobileMenu}>
+              <NavIcon style={{float: 'left'}} />
               Eden
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
-            <NavMenu onClick={handleClick} click={click}>
+            <NavMenu onClick={handleClick} click={click} style={{float: 'right'}}>
               <NavItem>
-                <NavLinks to="/about">About</NavLinks>
+                <NavLinks to="/" onClick={closeMobileMenu}>
+                   Home
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/services">Services</NavLinks>
+                <NavLinks to="/about" onClick={closeMobileMenu}>About</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products">Products</NavLinks>
+                <NavLinks to="/services" onClick={closeMobileMenu}>Services</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/products" onClick={closeMobileMenu}>Products</NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sign-up">
-                    <Button primary>Sign up</Button>
+                    <Button>Sign up</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to="/sign-up">
-                    <Button fontBig primary>
+                    <Button onClick={closeMobileMenu} fontBig >
                       Sign up
                     </Button>
                   </NavBtnLink>
@@ -77,9 +82,6 @@ const Navbar = () => {
         </Nav>
       </IconContext.Provider>
       <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
       </div>
     </>
   );
