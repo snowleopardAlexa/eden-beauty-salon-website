@@ -1,5 +1,5 @@
 //import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components';
+import { Navbar, InfoSection } from './components';
 import GlobalStyles from './globalStyles';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
      <div className="routes">
        <GlobalStyles />
        <Navbar />
+       <InfoSection />
      </div>
      </>
   );

@@ -15,7 +15,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from '../../globalStyles';
 import { Routes, Route, Link } from "react-router-dom";
-import About from "./About";
+import Home from "../../pages/HomePage/Home";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -78,7 +78,7 @@ const Navbar = () => {
       </IconContext.Provider>
       <div>
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </>
