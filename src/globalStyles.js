@@ -28,9 +28,9 @@ padding-left: 50px;
 export const Button = styled.div `
 border-radius: 4px;
 background-color: ${({ btnBg }) => (btnBg ? '#BB377D' : '#833ab4')};
+color: white;
 white-space: nowrap;
-padding: ${({big}) => (big ? '12px 64px' : '12px 20px')};
-color: ${({ color }) => (color ? '#fff' : '#000')};
+padding: ${({ big }) => (big ? '12px 64px' : '12px 20px')};
 font-size: ${({fontBig}) => (fontBig ? '30px' : '20px')};
 font-family: 'Cookie', cursive;
 outline: none;
