@@ -113,7 +113,7 @@ export const FooterLink = styled(Link)`
   margin-bottom: 0.5rem;
 
   &:hover {
-    color: #0467fb;
+    color: #FFE000;
     transition: 0.3s ease-out;
   }
 `;
@@ -154,6 +154,17 @@ export const SocialIcon = styled(GiButterflyFlower)`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 `;
 
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+`;
+
+export const SocialIconLink = styled.a`
+  color: #fff;
+  font-size: 24px;
+`;
