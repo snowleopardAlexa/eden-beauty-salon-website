@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import {
   Nav,
-  NavContainer,
+  NavbarContainer,
   NavLogo,
   NavIcon,
   MobileIcon,
@@ -41,7 +41,7 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
-          <NavContainer>
+          <NavbarContainer>
             <NavLogo as={Link} to="/">
               <NavIcon />
               Eden
@@ -73,7 +73,7 @@ const Navbar = () => {
                 )}
               </NavItemBtn>
             </NavMenu>
-          </NavContainer>
+          </NavbarContainer>
         </Nav>
       </IconContext.Provider>
       <div>

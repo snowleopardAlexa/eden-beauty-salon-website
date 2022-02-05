@@ -17,7 +17,7 @@ export const Nav = styled.nav `
   z-index: 999;
 `;
 
-export const NavContainer = styled(Container) `
+export const NavbarContainer = styled(Container) `
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -27,7 +27,7 @@ export const NavContainer = styled(Container) `
 
 export const NavLogo = styled(Link) `
   color: white;
-  justify-self: flex-start;
+  justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
