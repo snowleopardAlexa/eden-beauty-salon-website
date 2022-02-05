@@ -18,9 +18,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
         </Routes>
-        <Footer />
+       <Footer />
      </div>
-     </>
+    </>
   );
 }
 
