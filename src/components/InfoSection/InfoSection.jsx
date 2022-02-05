@@ -1,12 +1,24 @@
-import { InfoSec } from './InfoSection.elements';
+import {
+  InfoSec,
+  InfoRow,
+  InfoColumn,
+  TextWrapper,
+} from "./InfoSection.elements";
+import { Container } from "../../globalStyles";
 
-const InfoSection = ({ lightBg }) => {
+const InfoSection = ({ lightBg, imgStart }) => {
   return (
-   <>
-    <InfoSec lightBg={lightBg}>
-
-    </InfoSec>
-   </>
+    <>
+      <InfoSec lightBg={lightBg}>
+        <Container>
+          <InfoRow imgStart={imgStart}>
+            <InfoColumn>
+              <TextWrapper>hello</TextWrapper>
+            </InfoColumn>
+          </InfoRow>
+        </Container>
+      </InfoSec>
+    </>
   );
 };
 
