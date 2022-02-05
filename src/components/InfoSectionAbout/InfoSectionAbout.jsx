@@ -4,7 +4,7 @@ import {
   IntroLeftWrapper,
   TitleIntro,
   SubtitleIntro,
-  DescIntro,
+  DescIntroText,
   IntroRight,
   IntroImgWrapper,
   Img,
@@ -19,7 +19,7 @@ const InfoSectionAbout = () => {
         <IntroLeftWrapper>
           <TitleIntro></TitleIntro>
           <SubtitleIntro></SubtitleIntro>
-          <DescIntro></DescIntro>
+          <DescIntroText></DescIntroText>
           <Button>Send Message</Button>
         </IntroLeftWrapper>
       </IntroLeft>
