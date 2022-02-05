@@ -27,11 +27,13 @@ padding-left: 50px;
 
 export const Button = styled.div `
 border-radius: 4px;
-background: ${({primary}) => (primary ? '#33001b' : '#2F0743')}
+background: #BB377D;
+background-color: ${({primary}) => (primary ? '#BB377D' : '#833ab4')}
 white-space: nowrap;
-padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
+padding: ${({big}) => (big ? '12px 64px' : '12px 20px')};
 color: #fff;
-font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+font-size: ${({fontBig}) => (fontBig ? '25px' : '20px')};
+font-family: 'Dancing Script', cursive;
 outline: none;
 border: none;
 cursor: pointer;
@@ -39,7 +41,7 @@ cursor: pointer;
 &:hover {
     tranistion: all 0.3s ease-out;
     background: #fff;
-    background: ${({primary}) => (primary ? '#2F0743' : '#33001b')}
+    background-color: ${({primary}) => (primary ? '#833ab4' : '#BB377D')}
 }
 
 @media screen and (max-width: 960px) {
