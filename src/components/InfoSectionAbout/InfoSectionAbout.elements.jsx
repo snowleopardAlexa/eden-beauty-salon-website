@@ -4,6 +4,15 @@ import { FaInstagram } from 'react-icons/fa';
 export const Intro = styled.div `
   display: flex;
   height: 100vh;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+
 `;
 
 export const IntroLeft = styled.div `
