@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle `
    }
 `;
 
-
 export const Container = styled.div `
 z-index: 1,
 width: 100%;

@@ -1,11 +1,15 @@
-import { Routes, Route, Link } from 'react-router-dom';
+//import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components';
+import GlobalStyles from './globalStyles';
 
 function App() {
   return (
-    <Routes>
+     <>
+     <div className="routes">
+       <GlobalStyles />
        <Navbar />
-    </Routes>
+     </div>
+     </>
   );
 }
 
