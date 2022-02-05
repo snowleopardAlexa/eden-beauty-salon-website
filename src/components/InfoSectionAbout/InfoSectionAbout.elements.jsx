@@ -34,25 +34,69 @@ export const IntroLeftWrapper = styled.div `
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (max-width: 480px) {
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 820px) {
+    padding: 0px;
+  }
+
 `;
 
 export const TitleIntro = styled.h1 `
   font-size: 3rem;
   font-family: 'Cinzel', serif;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
 `;
 
 export const SubtitleIntro = styled.h3 `
   font-size: 1.7rem;
   font-family: 'Dancing Script', cursive;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 1.7rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
 `;
 
 export const DescIntroText = styled.p `
   font-size: 1.2rem;
   font-family: 'Playfair Display', serif;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+    margin: 20px 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 1.5rem;
+    margin: 20px 20px;
+    text-align: center;
+  }
 `;
 
 export const IntroImgWrapper = styled.div `
- 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -78,6 +122,15 @@ export const SocialIconText = styled.h2`
   color: #fff;
   font-size: 30px;
   margin-right: 10px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 1.5rem;
+  }
+
 `;
 
 export const SocialIcon = styled(FaInstagram)`
