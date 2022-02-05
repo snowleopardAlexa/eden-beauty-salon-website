@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Nav,
   NavContainer,
@@ -24,12 +24,18 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
 
   const showButton = () => {
-    if(wndow.innerWidth <= 960) {
+    if(window.innerWidth <= 960) {
       setButton(false)
     } else {
       setButton(true)
     }
   }
+
+  useEffect(() => {
+    showButton()
+  }, [])
+
+  window.addEventListener('resize', showButton);
 
   return (
     <>
