@@ -159,6 +159,10 @@ export const WebsiteRights = styled.small`
   @media screen and (max-width: 420px) {
     margin-bottom: 15px;
   }
+
+  @media screen and (max-width: 820px) {
+    margin-bottom: 15px;
+  }
 `;
 
 export const SocialIcons = styled.div`
