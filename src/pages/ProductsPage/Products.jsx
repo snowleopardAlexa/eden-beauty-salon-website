@@ -1,10 +1,10 @@
-import { homeObjThree } from "./Data";
+import { productsObjOne } from "./Data";
 import { InfoSectionProducts } from "../../components";
 
 const About = () => {
   return (
     <>
-      <InfoSectionProducts {...homeObjThree} />
+      <InfoSectionProducts {...productsObjOne} />
    
     </>
   );
