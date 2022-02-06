@@ -1,5 +1,5 @@
 import { } from "./InfoSectionProducts.elements";
-import { Container, Button } from "../../globalStyles";
+//import { Container, Button } from "../../globalStyles";
 
   
   const InfoSection = () => {
