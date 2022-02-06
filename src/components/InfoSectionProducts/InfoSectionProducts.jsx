@@ -1,4 +1,4 @@
-import { } from "./InfoSectionProducts.elements";
+//import { } from "./InfoSectionProducts.elements";
 //import { Container, Button } from "../../globalStyles";
 
   
