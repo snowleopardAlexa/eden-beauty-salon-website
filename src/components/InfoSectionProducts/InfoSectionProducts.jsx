@@ -1,8 +1,4 @@
-//import { } from "./InfoSectionProducts.elements";
-//import { Container, Button } from "../../globalStyles";
-
-  
-  const InfoSection = () => {
+  const InfoSectionProducts = () => {
     return (
       <>
        products
@@ -10,4 +6,4 @@
     );
   };
   
-  export default InfoSection;
+  export default InfoSectionProducts;
