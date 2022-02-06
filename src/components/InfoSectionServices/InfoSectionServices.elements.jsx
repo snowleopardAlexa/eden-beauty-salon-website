@@ -7,7 +7,7 @@ margin-top: -20px;
 `;
 
 export const Table = styled.div `
-
+width: 100%;
 `;
 
 export const TableTitle = styled.h1 `
@@ -59,7 +59,7 @@ font-size: 1.2rem;
 `;
 
 export const TableBody = styled.div `
-
+width: 100%;
 `;
 
 export const TableDataCell = styled.div `

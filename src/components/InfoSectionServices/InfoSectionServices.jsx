@@ -8,7 +8,7 @@ import {
   TableBody,
   TableDataCell,
 } from "./InfoSectionServices.elements";
-import { Button } from "../../globalStyles";
+//import { Button } from "../../globalStyles";
 
 const InfoSection = ({ fontWeight }) => {
   return (
