@@ -38,7 +38,7 @@ function Footer() {
         <FooterSubText>You can unsubscribe at any time.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button>Subscribe</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>

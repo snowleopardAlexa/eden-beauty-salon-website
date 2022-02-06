@@ -51,7 +51,7 @@ export const FormInput = styled.input`
   margin-right: 10px;
   outline: none;
   border: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
   border: 1px solid #fff;
   font-family: 'Playfair Display', serif;
 

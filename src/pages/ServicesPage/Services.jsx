@@ -1,13 +1,12 @@
-import { homeObjOne } from "./Data";
-import { InfoSectionServices, Pricing } from "../../components";
+import { servicesObjOne } from "./Data";
+import { InfoSectionServices } from "../../components";
 
-const Home = () => {
+const Services = () => {
   return (
     <>
-     <InfoSectionServices {...homeObjOne} />
-     <Pricing />
+     <InfoSectionServices {...servicesObjOne} />
     </>
   );
 };
 
-export default Home;
+export default Services;
