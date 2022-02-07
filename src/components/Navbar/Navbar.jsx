@@ -81,8 +81,6 @@ const Navbar = () => {
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
-      <div>
-      </div>
     </>
   );
 };

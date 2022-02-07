@@ -11,7 +11,7 @@ width: 100%;
 `;
 
 export const TableTitle = styled.h1 `
-font-size: 2.5rem;
+font-size: 3.5rem;
 margin-top: 20px;
 padding: 15px;
 font-family: 'Dancing Script', cursive;
@@ -71,6 +71,8 @@ font-family: 'Cinzel', serif;
 font-size: 1rem;
 font-weight: ${({ fontWeight }) => (fontWeight ? '700' : 'none')};
 `;
+
+
 
 
 

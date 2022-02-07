@@ -25,9 +25,14 @@ export const PricingWrapper = styled.div`
 
 export const PricingHeading = styled.h1`
   color: #fff;
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 24px;
   font-family: 'Cinzel', serif;
+  text-align: center;
+
+  @media screen and (max-width: 960px) {
+    font-size: 2rem;
+  }
 `;
 
 export const PricingContainer = styled.div`
@@ -47,7 +52,7 @@ export const PricingContainer = styled.div`
 export const PricingCard = styled(Link)`
   background: #3A1C71;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 280px;
+  width: 320px;
   height: 500px;
   text-decoration: none;
   border-radius: 4px;
@@ -63,7 +68,7 @@ export const PricingCard = styled(Link)`
   }
 
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 80%;
 
     &:hover {
       transform: none;
