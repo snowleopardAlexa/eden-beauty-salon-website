@@ -1,13 +1,13 @@
 import {
   ProductsSec,
   ProductsRow,
-  InfoColumn,
+  ProductsTextColumn,
   ProductsTextWrapper,
   ProductsTitle,
   ProductsHeading,
   ProductsSubtitle,
-  ProductsColumn,
   Container,
+  ProductsImgColumn,
   Link,
   Button,
   ProductImgWrapper,
@@ -32,7 +32,7 @@ const InfoSectionProducts = ({
         <ProductsSec>
           <Container>
             <ProductsRow imgStart={imgStart}>
-              <ProductsColumn>
+              <ProductsTextColumn>
                 <ProductsTextWrapper>
                   <ProductsTitle>{topLine}</ProductsTitle>
                   <ProductsHeading>{headline}</ProductsHeading>
@@ -43,12 +43,12 @@ const InfoSectionProducts = ({
                     </Button>
                   </Link>
                 </ProductsTextWrapper>
-              </ProductsColumn>
-              <InfoColumn>
+              </ProductsTextColumn>
+              <ProductsImgColumn>
                 <ProductImgWrapper start={start}>
                   <Img src={img} alt={alt} />
                 </ProductImgWrapper>
-              </InfoColumn>
+              </ProductsImgColumn>
             </ProductsRow>
           </Container>
         </ProductsSec>
