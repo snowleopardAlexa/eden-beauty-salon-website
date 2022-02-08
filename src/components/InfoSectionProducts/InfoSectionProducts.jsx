@@ -1,18 +1,18 @@
 import {
+  PageHeader,
   ProductsSec,
   ProductsRow,
-  ProductsTextColumn,
+  ProductColumn,
   ProductsTextWrapper,
   ProductsTitle,
   ProductsHeading,
   ProductsSubtitle,
-  Container,
-  ProductsImgColumn,
-  Link,
-  Button,
   ProductImgWrapper,
+  ProductPrice,
+  Divider,
   Img,
 } from "./InfoSectionProducts.elements";
+import { Container } from "../../globalStyles";
 
 const InfoSectionProducts = ({
   img,
@@ -23,8 +23,7 @@ const InfoSectionProducts = ({
   topLine,
   headline,
   description,
-  btnBg,
-  buttonLabel,
+  price,
 }) => {
   return (
     <>
@@ -32,23 +31,35 @@ const InfoSectionProducts = ({
         <ProductsSec>
           <Container>
             <ProductsRow imgStart={imgStart}>
-              <ProductsTextColumn>
+              <ProductColumn>
                 <ProductsTextWrapper>
                   <ProductsTitle>{topLine}</ProductsTitle>
                   <ProductsHeading>{headline}</ProductsHeading>
                   <ProductsSubtitle>{description}</ProductsSubtitle>
-                  <Link to="" style={{ textDecoration: "none" }}>
-                    <Button big fontBig btnBg={btnBg} color={color}>
-                      {buttonLabel}
-                    </Button>
-                  </Link>
+                  <ProductPrice>{price}</ProductPrice>
                 </ProductsTextWrapper>
-              </ProductsTextColumn>
-              <ProductsImgColumn>
+              </ProductColumn>
+           
+              <ProductColumn>
                 <ProductImgWrapper start={start}>
                   <Img src={img} alt={alt} />
                 </ProductImgWrapper>
-              </ProductsImgColumn>
+              </ProductColumn>
+
+              <ProductColumn>
+                <ProductsTextWrapper>
+                  <ProductsTitle>{topLine}</ProductsTitle>
+                  <ProductsHeading>{headline}</ProductsHeading>
+                  <ProductsSubtitle>{description}</ProductsSubtitle>
+                  <ProductPrice>{price}</ProductPrice>
+                </ProductsTextWrapper>
+              </ProductColumn>
+         
+              <ProductColumn>
+                <ProductImgWrapper start={start}>
+                  <Img src={img} alt={alt} />
+                </ProductImgWrapper>
+              </ProductColumn>
             </ProductsRow>
           </Container>
         </ProductsSec>
