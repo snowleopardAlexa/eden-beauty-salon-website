@@ -1,5 +1,4 @@
 import {
-  PageHeader,
   ProductsSec,
   ProductsRow,
   ProductColumn,
@@ -9,7 +8,6 @@ import {
   ProductsSubtitle,
   ProductImgWrapper,
   ProductPrice,
-  Divider,
   Img,
 } from "./InfoSectionProducts.elements";
 import { Container } from "../../globalStyles";

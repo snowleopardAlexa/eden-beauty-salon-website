@@ -12,9 +12,7 @@ export const Container = styled.div `
 
 
 
-export const PageHeader = styled.h1 `
- 
-`;
+
 
 export const ProductsRow = styled.div `
    display: flex;
@@ -71,6 +69,4 @@ export const Img = styled.img `
   max-height: 200px;
 `;
 
-export const Divider = styled.span `
-border-top: 3px dotted #bbb;
-`;
+
