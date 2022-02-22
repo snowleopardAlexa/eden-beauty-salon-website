@@ -4,8 +4,8 @@ export const contactForm = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Contact Eden',
-    headline: 'We welcome you greetly',
-    description: 'Ask, honey!',
+    title: 'Contact Eden',
+    subtitle: 'We welcome you greetly',
+    bottomLine: 'Ask, honey!',
     buttonLabel: 'Send Message',
 }

@@ -1,18 +1,24 @@
-import { ContainerTitle, Form, FormGroup, Label, Input, Message } from './Contact.elements';
+import { ContainerTitle, ContainerSubtitle, ContainerText, Form, FormGroup, Label, Input, Message } from './Contact.elements';
 import { Container, Button } from '../../globalStyles';
 
-const Contact = ({ topLine }) => {
+const Contact = ({ title, subtitle, bottomLine }) => {
   return (
     <Container>
-    <ContainerTitle>HELLO</ContainerTitle>    
+    <ContainerTitle>{title}</ContainerTitle>    
+    <ContainerSubtitle>{subtitle}</ContainerSubtitle>
+    <ContainerText>{bottomLine}</ContainerText>
     <Form>
         <FormGroup>
-            <Label></Label>
+            <Label>Name</Label>
             <Input></Input>
             <Message></Message>
         </FormGroup>
         <FormGroup>
-            <Label></Label>
+            <Label>Email</Label>
+            <Input />
+        </FormGroup>
+        <FormGroup>
+            <Label>Message</Label>
             <Input />
             <Message></Message>
             <Button>Send Message</Button>
