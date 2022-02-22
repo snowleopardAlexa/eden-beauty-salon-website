@@ -46,17 +46,17 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to='/about'>Our Star</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
+            <FooterLink to='/services'>Testimonials</FooterLink>
             <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Artists</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
+            <FooterLink to='/contact'>Contact</FooterLink>
             <FooterLink to='/'>Locations</FooterLink>
-            <FooterLink to='/'>Media</FooterLink>
-            <FooterLink to='/'>Partnership</FooterLink>
+            <FooterLink to='/contact'>Media</FooterLink>
+            <FooterLink to='/about'>Partnership</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
