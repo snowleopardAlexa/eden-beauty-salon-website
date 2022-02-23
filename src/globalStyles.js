@@ -1,5 +1,3 @@
-// we use them across the website 
-
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle `

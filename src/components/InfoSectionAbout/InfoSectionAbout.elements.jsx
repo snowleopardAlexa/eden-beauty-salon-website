@@ -20,7 +20,7 @@ export const IntroLeft = styled.div `
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eef2f3;
+  background: #eaeaea;
 `;
 
 export const IntroRight = styled.div `
