@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../responsiveView';
 
 export const ContainerTitle = styled.div `
   text-align: center;
@@ -7,14 +8,9 @@ export const ContainerTitle = styled.div `
   font-weight: bold;
   padding: 50px;
 
-  @media screen and (max-width: 640px) {
-   font-size: 1rem;
+ @media ${device.mobileL} {
+    font-size: 3rem;
  }
-
- @media screen and (max-width: 768px) {
-   font-size: 1.5rem;
- }
-
  
 
 `;
