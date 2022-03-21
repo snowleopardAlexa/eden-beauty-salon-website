@@ -53,9 +53,9 @@ function Footer() {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/contact'>Contact</FooterLink>
+            <FooterLink to='/'>Contact</FooterLink>
             <FooterLink to='/'>Locations</FooterLink>
-            <FooterLink to='/contact'>Media</FooterLink>
+            <FooterLink to='/'>Media</FooterLink>
             <FooterLink to='/about'>Partnership</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
