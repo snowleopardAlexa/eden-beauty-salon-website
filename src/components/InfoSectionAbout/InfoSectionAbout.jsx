@@ -13,7 +13,6 @@ import {
 } from "./InfoSectionAbout.elements";
 import { Button } from "../../globalStyles";
 import { FaInstagram } from 'react-icons/fa';
-//import { Link } from "react-router-dom";
 
 const InfoSectionAbout = ({ img, alt }) => {
   return (
