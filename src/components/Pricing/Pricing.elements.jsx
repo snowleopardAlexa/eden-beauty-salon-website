@@ -6,7 +6,10 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #BB377D;
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 `;
 
 export const PricingWrapper = styled.div`
@@ -27,7 +30,7 @@ export const PricingHeading = styled.h1`
   color: #fff;
   font-size: 3rem;
   margin-bottom: 24px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display', serif;
   text-align: center;
 
   @media screen and (max-width: 960px) {
