@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Eden Beauty Salon Website
 
-![Alt text](/src/img/eden.png?raw=true "Linkedin Clone")(https://eden-beauty-salon-website-snowleopardalexa.vercel.app/)
+![Alt text](/src/img/eden.png?raw=true "Eden Beauty Salon Website") https://eden-beauty-salon-website-snowleopardalexa.vercel.app/
 
 ### Built With
 
@@ -76,7 +76,7 @@ To get a local copy up and running follow these simple example steps
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/snowleopardAlexa/eden-beauty-salon-website.git
    ```
 2. Install NPM packages
    ```sh
