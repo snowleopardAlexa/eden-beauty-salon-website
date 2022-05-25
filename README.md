@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Eden Beauty Salon Website
 
-![Alt text](/src/img/eden.png?raw=true "Eden Beauty Salon Website") https://eden-beauty-salon-website-snowleopardalexa.vercel.app/
+![Alt text](//img/eden.png?raw=true "Eden Beauty Salon Website") https://eden-beauty-salon-website-snowleopardalexa.vercel.app/
 
 ### Built With
 
